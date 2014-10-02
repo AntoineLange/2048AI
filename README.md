@@ -2,3 +2,5 @@
 ======
 
 2048 Game + Artificial Intelligence
+
+Play with arrows keys, or ZQSD letters.
