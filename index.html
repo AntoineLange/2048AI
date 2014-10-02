@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Supinfo 2048</title>
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link href="style/main.css" rel="stylesheet" type="text/css">
+
+	<script src="js/jquery-2.1.0.min.js"></script>
+	<script src="js/game.js"></script>
+	<script src="js/score.js"></script>
+	<script src="js/ai.js"></script>
+</head>
+
+<body>
+	<div class="header-container">
+		<div id="header">Supinfo <span id="deuxmil48">2048</span></div>
+		<div id="div-score">
+			SCORE<br/><span id="score">0</span>
+		</div>
+		<div id="div-best">
+			<div id="addition"></div>BEST<br/><span id="best"></span>
+		</div>
+		<div class="clear"></div>
+		<div id="buttons"><a class="restart-button">New Game</a>&nbsp;<a class="aiSimple-button">AI Simple</a>&nbsp;<a class="aiClone-button">AI Clone</a>&nbsp;<a class="random-button">Random</a></div>
+	</div>
+
+	<div id="gameOver"><h1 class="gameOverTitle">GAME OVER<br/><img src="images/cryman.png" /></h1></div>
+	<div id="board-container">
+		<div class="board-tile empty-tile" data-row="0" data-col="0"></div>
+		<div class="board-tile empty-tile" data-row="0" data-col="1"></div>
+		<div class="board-tile empty-tile" data-row="0" data-col="2"></div>
+		<div class="board-tile empty-tile" data-row="0" data-col="3"></div>
+		<div class="clear"></div>
+
+		<div class="board-tile empty-tile" data-row="1" data-col="0"></div>
+		<div class="board-tile empty-tile" data-row="1" data-col="1"></div>
+		<div class="board-tile empty-tile" data-row="1" data-col="2"></div>
+		<div class="board-tile empty-tile" data-row="1" data-col="3"></div>
+		<div class="clear"></div>
+
+		<div class="board-tile empty-tile" data-row="2" data-col="0"></div>
+		<div class="board-tile empty-tile" data-row="2" data-col="1"></div>
+		<div class="board-tile empty-tile" data-row="2" data-col="2"></div>
+		<div class="board-tile empty-tile" data-row="2" data-col="3"></div>
+		<div class="clear"></div>
+
+		<div class="board-tile empty-tile" data-row="3" data-col="0"></div>
+		<div class="board-tile empty-tile" data-row="3" data-col="1"></div>
+		<div class="board-tile empty-tile" data-row="3" data-col="2"></div>
+		<div class="board-tile empty-tile" data-row="3" data-col="3"></div>
+		<div class="clear"></div>
+	</div>
+	<div class="footer-container"></div>
+</body>
+
+</html>
